@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>{{title}}</title>
+
+  </head>
+  <body class="Weather-body">
+    <h1>{{>header}}</h1>
+
+ <form action="#" id="weather-form">
+    <input type="text" name="address" id="address" placeholder="Enter Country Name">
+    <input type="submit" value="Check Weather" id="submit-btn">
+  </form>
+  <hr>
+
+  <article class="all-data">
+    <p id="country-content"></p>
+    <p id="zone-content"></p>
+    <p id="latitude-content"></p>
+    <p id="longitude-content"></p>
+    <p id="temperature-content"></p>
+    <p id="weather-content"></p>
+    <p id="time-content"></p>
+  </article>
+
+  <article class="error-data">
+    <p id="error-content"></p>
+  </article>
+
+  <script src="script.js"></script>
+
+  </body>
+</html>
